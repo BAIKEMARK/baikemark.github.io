@@ -1,0 +1,8 @@
+/* 自定义 butterfly 风格友链头像 */
+.flink .flink-list .flink-list-item .flink-item-icon img {
+  width: 10px;
+  height: 10px;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: white; /* 可选：加个背景避免透明图发灰 */
+}
