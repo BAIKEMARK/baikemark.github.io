@@ -1,8 +1,37 @@
-/* 自定义 butterfly 风格友链头像 */
-.flink .flink-list .flink-list-item .flink-item-icon img {
-  width: 10px;
-  height: 10px;
+/* 图标容器：去除圆角和阴影，避免图标溢出 */
+.flink-item-icon {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  overflow: hidden; /* 防止子元素溢出容器 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 图标图片：完整显示，保持比例，不裁剪 */
+.flink-item-icon img {
+  max-width: 100%;
+  max-height: 100%;
   object-fit: contain;
-  border-radius: 50%;
-  background-color: white; /* 可选：加个背景避免透明图发灰 */
+  display: block;
+}
+
+
+/* 卡片项宽度设置：每行显示 3 个，带间距 */
+.butterfly-flink-list > .flink-list-item {
+  width: calc(100% / 3 - 1rem) !important;
+  margin: 0.5rem !important; /* 卡片间距 */
+}
+
+/* 卡片内链接铺满整个卡片 */
+.butterfly-flink-list > .flink-list-item > a {
+  display: block;
+  width: 100%;
+}
+
+/* 响应式：屏幕宽度 ≤ 600px 时，每行显示 2 个 */
+@media screen and (max-width: 600px) {
+  .butterfly-flink-list > .flink-list-item {
+    width: calc(100% / 2 - 1rem) !important;
+  }
 }
