@@ -127,6 +127,13 @@
   </url>
   
   <url>
+    <loc>https://blog.051088.xyz/tags/Linux/</loc>
+    <lastmod>2025-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.051088.xyz/tags/Windows/</loc>
     <lastmod>2025-05-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -147,13 +154,6 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://blog.051088.xyz/tags/Linux/</loc>
-    <lastmod>2025-05-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
@@ -164,14 +164,14 @@
   </url>
   
   <url>
-    <loc>https://blog.051088.xyz/categories/%E6%88%90%E9%95%BF%E8%BD%A8%E8%BF%B9/</loc>
+    <loc>https://blog.051088.xyz/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/AI%E5%BA%94%E7%94%A8/</loc>
     <lastmod>2025-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.051088.xyz/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/AI%E5%BA%94%E7%94%A8/</loc>
+    <loc>https://blog.051088.xyz/categories/%E6%88%90%E9%95%BF%E8%BD%A8%E8%BF%B9/</loc>
     <lastmod>2025-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
