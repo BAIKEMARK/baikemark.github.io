@@ -92,20 +92,6 @@
 
   
   <url>
-    <loc>https://blog.051088.xyz/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2025-08-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.051088.xyz/tags/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2025-08-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.051088.xyz/tags/WeClone/</loc>
     <lastmod>2025-08-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -148,6 +134,20 @@
   </url>
   
   <url>
+    <loc>https://blog.051088.xyz/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</loc>
+    <lastmod>2025-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.051088.xyz/tags/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%B0%88/</loc>
+    <lastmod>2025-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.051088.xyz/tags/Windows/</loc>
     <lastmod>2025-08-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -155,13 +155,6 @@
   </url>
   
 
-  
-  <url>
-    <loc>https://blog.051088.xyz/categories/%E6%88%90%E9%95%BF%E8%BD%A8%E8%BF%B9/</loc>
-    <lastmod>2025-08-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>https://blog.051088.xyz/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/</loc>
@@ -172,6 +165,13 @@
   
   <url>
     <loc>https://blog.051088.xyz/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/AI%E5%BA%94%E7%94%A8/</loc>
+    <lastmod>2025-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.051088.xyz/categories/%E6%88%90%E9%95%BF%E8%BD%A8%E8%BF%B9/</loc>
     <lastmod>2025-08-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
