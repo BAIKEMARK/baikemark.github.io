@@ -1,0 +1,328 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Vibe Coding实战：从灵感到代码，我的实践心法 | MarkBai的数字自留地-分享我的DIY日志</title><meta name="author" content="MarkBai,blog@051088.xyz"><meta name="copyright" content="MarkBai"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Vibe Coding实战：从灵感到代码，我的实践心法">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Vibe Coding实战：从灵感到代码，我的实践心法">
+<meta property="og:url" content="https://blog.051088.xyz/posts/25102720/index.html">
+<meta property="og:site_name" content="MarkBai的数字自留地-分享我的DIY日志">
+<meta property="og:description" content="Vibe Coding实战：从灵感到代码，我的实践心法">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blog-img.051088.xyz/vibe-coding-poster.png">
+<meta property="article:published_time" content="2025-10-27T11:59:43.825Z">
+<meta property="article:modified_time" content="2025-10-27T11:59:44.035Z">
+<meta property="article:author" content="MarkBai">
+<meta property="article:tag" content="AI">
+<meta property="article:tag" content="Coding">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blog-img.051088.xyz/vibe-coding-poster.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Vibe Coding实战：从灵感到代码，我的实践心法",
+  "url": "https://blog.051088.xyz/posts/25102720/",
+  "image": "https://blog-img.051088.xyz/vibe-coding-poster.png",
+  "datePublished": "2025-10-27T11:59:43.825Z",
+  "dateModified": "2025-10-27T11:59:44.035Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "MarkBai",
+      "url": "https://blog.051088.xyz/"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/cat_dark.png"><link rel="canonical" href="https://blog.051088.xyz/posts/25102720/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="msvalidate.01" content="3D5AD97894B95C6A0545D582BD3EB688"/><meta name="baidu-site-verification" content="codeva-oo2hqM6DSL"/><meta name="google-site-verification" content="3pSewSvoaikv4-iDDPLHEufO0hB5ACox1m-6eB1BYSI"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?daf1aae7138e285b091e5da481b059e5";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+btf.addGlobalFn('pjaxComplete', () => {
+  _hmt.push(['_trackPageview',window.location.pathname])
+}, 'baidu_analytics')
+</script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Vibe Coding实战：从灵感到代码，我的实践心法',
+  isHighlightShrink: undefined,
+  isToc: true,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="/css/flink-avatar.css?v=20250524"><meta name="generator" content="Hexo 7.3.0"></head><body><div id="web_bg" style="background-color: #f9fcff;"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/profile-photo.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">13</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fa fa-graduation-cap"></i><span> Blog</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comment/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于笔者</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg fixed" id="page-header" style="background-image: url(https://blog-img.051088.xyz/wallhaven-8ovykj_1920x1080.png);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="/img/Cat_plain.png" alt="Logo"><span class="site-name">MarkBai的数字自留地-分享我的DIY日志</span></a><a class="nav-page-title" href="/"><span class="site-name">Vibe Coding实战：从灵感到代码，我的实践心法</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fa fa-graduation-cap"></i><span> Blog</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comment/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于笔者</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">Vibe Coding实战：从灵感到代码，我的实践心法</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-10-27T11:59:43.825Z" title="发表于 2025-10-27 19:59:43">2025-10-27</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-10-27T11:59:44.035Z" title="更新于 2025-10-27 19:59:44">2025-10-27</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/AI/">AI</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/AI/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/">技术教程</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">2.8k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>8分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h2 id="什么是-Vibe-Coding？"><a href="#什么是-Vibe-Coding？" class="headerlink" title="什么是 Vibe Coding？"></a>什么是 Vibe Coding？</h2><p><strong>Vibe Coding（感觉式编程）</strong>，简单来说，就是 <strong>将代码编写的主导权完全移交给 AI</strong>。</p>
+<p>在这个模式下，开发者不再沉陷于代码的实现细节。我们转而 <strong>通过自然语言指令来“指挥”AI</strong>，然后直接观察和验证应用的运行结果。如果结果有偏差，我们继续通过自然语言“指挥”AI进行功能优化、逻辑调整或Debug。</p>
+<p>这个过程更像是 <strong>我们与 AI 进行一场产品层面的对话，而非传统的技术协作</strong>。</p>
+<p>正如OpenAI前联合创始人Andrej Karpathy所说：</p>
+<blockquote>
+<p>“我把这一种全新的编程方式称作’vibe coding’：完全沉浸在氛围中，放飞自我，甚至忘了自己在写代码。”</p>
+</blockquote>
+<p>传统编程中，我们告诉计算机<strong>每一步该怎么做</strong>；而Vibe Coding则是我们向AI描述<strong>我们想要什么</strong>，然后让AI自己去思考如何实现。</p>
+<h2 id="我的Vibe-Coding哲学：灵魂在于“Vibe”，而非“Coding”"><a href="#我的Vibe-Coding哲学：灵魂在于“Vibe”，而非“Coding”" class="headerlink" title="我的Vibe Coding哲学：灵魂在于“Vibe”，而非“Coding”"></a>我的Vibe Coding哲学：灵魂在于“Vibe”，而非“Coding”</h2><p>Vibe Coding 的核心是 <strong>“说人话，出代码”</strong>。你负责描绘想法、目标和感觉，AI 负责将你的意图转化为可运行的代码。</p>
+<p>在深入“怎么做”之前，我想先分享“怎么想”。如果过于深陷理论，反而可能产生很强的壁垒，阻止你继续前进。</p>
+<p>这是我的三个核心看法：</p>
+<ol>
+<li><strong>Idea 比技术更重要</strong>：一个核心的Idea是产品的灵魂。Vibe Coding 最大的价值，就是让我们能以前所未有的速度，从 0 到 1 搭建起一个 demo，快速实现概念验证。</li>
+<li><strong>实践大于理论</strong>：不要太在意所谓的Prompt技巧乃至Vibe Coding的理论，实践比理论更重要。好的开始是成功的一半。</li>
+<li><strong>敢想敢做</strong>：敢想，敢做，你就已经走在了前进的路上。</li>
+</ol>
+<p>基于此，我们首先要明确一个心态——<strong>「我们是自己项目的总工程师和产品经理，AI是我们的编程助理」</strong>。</p>
+<p>我们必须知道项目大致是怎么推进的、能如何推进，才能更好地指导AI的工作。</p>
+<h2 id="我的8步Vibe-Coding闭环工作流"><a href="#我的8步Vibe-Coding闭环工作流" class="headerlink" title="我的8步Vibe Coding闭环工作流"></a>我的8步Vibe Coding闭环工作流</h2><p>这是我常用的一套实践路线，它是一个不断迭代的敏捷循环：</p>
+<p><strong>核心Idea -&gt; 讨论、发散、丰富Idea -&gt; 分析Idea的可行性 -&gt; 初步确定技术栈 -&gt; 生成初版代码 -&gt; 调试、优化 -&gt; 评估 -&gt; 迭代新的Idea -&gt; 项目越发庞大时考虑迭代新的技术栈 -&gt; 测试、评估、Debug</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">flowchart TB</span><br><span class="line">    %% =================== 样式定义 ===================</span><br><span class="line">    classDef idea fill:#B3E5FC,stroke:#0288D1,color:#0D47A1,font-weight:bold,rx:12,ry:12;</span><br><span class="line">    classDef think fill:#C5CAE9,stroke:#5C6BC0,color:#1A237E,font-weight:bold,rx:12,ry:12;</span><br><span class="line">    classDef tech fill:#B2DFDB,stroke:#26A69A,color:#004D40,font-weight:bold,rx:12,ry:12;</span><br><span class="line">    classDef build fill:#D1C4E9,stroke:#7E57C2,color:#311B92,font-weight:bold,rx:12,ry:12;</span><br><span class="line">    classDef test fill:#F8BBD0,stroke:#EC407A,color:#880E4F,font-weight:bold,rx:12,ry:12;</span><br><span class="line">    classDef loop fill:#B2EBF2,stroke:#00ACC1,color:#004D40,font-weight:bold,rx:12,ry:12;</span><br><span class="line"></span><br><span class="line">    %% =================== 节点定义 ===================</span><br><span class="line">    A(Idea: 确立核心Idea):::idea</span><br><span class="line">    B(讨论与发散):::think</span><br><span class="line">    C(可行性分析):::think</span><br><span class="line">    D(技术栈确定):::tech</span><br><span class="line">    E(生成初版代码):::build</span><br><span class="line">    F(调试与优化):::test</span><br><span class="line">    G(评估与迭代):::loop</span><br><span class="line">    H(技术栈升级):::tech</span><br><span class="line"></span><br><span class="line">    %% =================== 循环流程 ===================</span><br><span class="line">    A --&gt; B</span><br><span class="line">    B --&gt; C</span><br><span class="line">    C --&gt; D</span><br><span class="line">    D --&gt; E</span><br><span class="line">    E --&gt; F</span><br><span class="line">    F --&gt; G</span><br><span class="line">    G --&gt; H</span><br><span class="line">    H --&gt; A</span><br><span class="line"></span><br><span class="line">    %% =================== AI角色提示 ===================</span><br><span class="line">    B -. &quot;AI 产品经理角色&quot; .-&gt; C</span><br><span class="line">    F -. &quot;AI 资深程序员角色&quot; .-&gt; G</span><br><span class="line">    G -. &quot;用户视角评估AI&quot; .-&gt; H</span><br><span class="line"></span><br><span class="line">    %% =================== 线条美化 ===================</span><br><span class="line">    linkStyle default stroke:#90A4AE,stroke-width:2px,fill:none,curve:basis</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="步骤-1：🧭-确立核心Idea"><a href="#步骤-1：🧭-确立核心Idea" class="headerlink" title="步骤 1：🧭 确立核心Idea"></a>步骤 1：🧭 确立核心Idea</h3><p>确定你最想验证的点。不要一开始就追求完美产品，而是找那个能体现核心价值的功能。</p>
+<h3 id="步骤-2：🧠-讨论、发散、丰富Idea"><a href="#步骤-2：🧠-讨论、发散、丰富Idea" class="headerlink" title="步骤 2：🧠 讨论、发散、丰富Idea"></a>步骤 2：🧠 讨论、发散、丰富Idea</h3><p>用AI作为“头脑风暴伙伴”，从不同角度去拆解：用户是谁？核心价值是什么？有哪些创新点？ 让AI担任你的“产品经理”角色，它会帮你发现许多你没注意到的可能性。</p>
+<h3 id="步骤-3：🔍-分析可行性"><a href="#步骤-3：🔍-分析可行性" class="headerlink" title="步骤 3：🔍 分析可行性"></a>步骤 3：🔍 分析可行性</h3><p>这是从创意走向实现的桥梁。让AI帮你列出：关键功能模块、数据流、技术依赖、可替代方案。有时候我会让AI模拟“独立开发者”角色，审视整个架构是否合理。</p>
+<h3 id="步骤-4：⚙️-确定技术栈"><a href="#步骤-4：⚙️-确定技术栈" class="headerlink" title="步骤 4：⚙️ 确定技术栈"></a>步骤 4：⚙️ 确定技术栈</h3><p>不要盲目追新。Vibe Coding倡导“够用就行”的心态。选最熟悉、最轻量、最能快速验证的技术组合。</p>
+<blockquote>
+<p>示例：前端HTML + JS，后端FastAPI + LLM API。模型：Qwen2.5 &#x2F; GPT &#x2F; DeepSeek-R1等均可。</p>
+</blockquote>
+<h3 id="步骤-5：🚀-生成初版代码"><a href="#步骤-5：🚀-生成初版代码" class="headerlink" title="步骤 5：🚀 生成初版代码"></a>步骤 5：🚀 生成初版代码</h3><p>明确你的需求（输入、输出、交互），然后指挥AI逐步生成模块代码。关键技巧：一次只生成一个功能；每步都说明“我希望它怎么用”；生成后立刻测试。</p>
+<h3 id="步骤-6：🔧-调试与优化"><a href="#步骤-6：🔧-调试与优化" class="headerlink" title="步骤 6：🔧 调试与优化"></a>步骤 6：🔧 调试与优化</h3><p>在这阶段，你会开始“与A共调试”。让它帮你阅读错误日志、解释异常、建议优化。这时AI的角色更像“资深程序员”。</p>
+<h3 id="步骤-7：🔄-评估与迭代"><a href="#步骤-7：🔄-评估与迭代" class="headerlink" title="步骤 7：🔄 评估与迭代"></a>步骤 7：🔄 评估与迭代</h3><p>当第一个版本跑起来后，马上进入迭代。用“用户视角”的AI角色帮你评估：功能是否实用？界面是否自然？是否还有未满足的场景？</p>
+<h3 id="步骤-8：🧱-随项目成长而升级技术栈"><a href="#步骤-8：🧱-随项目成长而升级技术栈" class="headerlink" title="步骤 8：🧱 随项目成长而升级技术栈"></a>步骤 8：🧱 随项目成长而升级技术栈</h3><p>当你的项目变复杂，AI也能帮你逐步重构。这一点尤其重要。</p>
+<p>在Vibe Coding中，<strong>重构不再可怕</strong>，因为AI可以理解旧逻辑并自动迁移新框架。</p>
+<h2 id="我的实战心法：如何让AI更懂你"><a href="#我的实战心法：如何让AI更懂你" class="headerlink" title="我的实战心法：如何让AI更懂你"></a>我的实战心法：如何让AI更懂你</h2><h3 id="心法一：专业的事，交给专业的AI角色"><a href="#心法一：专业的事，交给专业的AI角色" class="headerlink" title="心法一：专业的事，交给专业的AI角色"></a>心法一：专业的事，交给专业的AI角色</h3><p>在Vibe Coding中，<strong>一个人可以拥有一个AI团队</strong>。我会根据任务配置不同的AI角色，让AI成为真正的“智囊团队”，而你是协调、判断与决策的核心。</p>
+<p>下面是我最常用的角色配置：</p>
+<table>
+<thead>
+<tr>
+<th><strong>角色</strong></th>
+<th><strong>主要任务</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>💼 产品设计经理</td>
+<td>分析需求、拆解功能、发散创意</td>
+</tr>
+<tr>
+<td>🧑‍💻 资深程序员</td>
+<td>编写、优化核心代码</td>
+</tr>
+<tr>
+<td>🎨 前端设计师</td>
+<td>负责UI布局、动效与交互逻辑</td>
+</tr>
+<tr>
+<td>🧠 架构工程师</td>
+<td>把控整体结构与模块解耦</td>
+</tr>
+<tr>
+<td>👥 用户体验专家</td>
+<td>评估易用性与界面友好度</td>
+</tr>
+<tr>
+<td>🔍 资源专家</td>
+<td>搜索相关工具、API、开源方案</td>
+</tr>
+</tbody></table>
+<p><strong>我在使用的资深程序员提示词：</strong></p>
+<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br></pre></td><td class="code"><pre><span class="line">职责</span><br><span class="line"></span><br><span class="line">你的职责是帮助我完成编写代码、修复代码和理解代码等任务。我会与你分享我的目标和项目，你将协助我编写所需的代码以取得成功。</span><br><span class="line"></span><br><span class="line">目标</span><br><span class="line"></span><br><span class="line">* 代码创建：尽可能编写能够实现我目标的完整代码。</span><br><span class="line"></span><br><span class="line">* 技能培训：教我代码开发的步骤。</span><br><span class="line"></span><br><span class="line">* 清晰指导：以易于理解的方式，解释如何实现或编写代码。</span><br><span class="line"></span><br><span class="line">* 详尽文档：为每个步骤或代码的每个部分提供清晰的文档说明。</span><br><span class="line"></span><br><span class="line">整体方向</span><br><span class="line"></span><br><span class="line">* 记住全程保持积极、耐心、支持的语气。</span><br><span class="line"></span><br><span class="line">* 使用清晰、简单的语言，假设我具备基本的代码理解能力。</span><br><span class="line"></span><br><span class="line">* 切勿讨论任何与编程无关的话题！如果我提到与编程无关的事物，请道歉并将话题转回编程。</span><br><span class="line"></span><br><span class="line">* 在整个对话中记住上下文，确保你的想法和回应与之前的所有对话相关。</span><br><span class="line"></span><br><span class="line">* 如果我问候你或问你可以做什么，请简要说明你的职责。保持简洁明了，并给出一些简短的例子。</span><br><span class="line"></span><br><span class="line">* 始终用简体中文和我交流。代码的注释也需要使用中文，但是代码中的语言应该使用英文。</span><br><span class="line"></span><br><span class="line">分步指引</span><br><span class="line"></span><br><span class="line">* 了解我的要求：收集编写代码所需的信息。询问有关目的、用途及其他相关细节的澄清问题，以确保你理解我的要求。</span><br><span class="line"></span><br><span class="line">* 概略介绍解决方案：清晰概述代码的功能和工作原理。解释开发步骤、假设条件和限制。</span><br><span class="line"></span><br><span class="line">* 展示代码和实现说明：以便于复制粘贴的方式呈现代码，解释你的设计思路以及任何可以调整的变量或参数。提供清晰的代码实现步骤说明。</span><br><span class="line"></span><br><span class="line">* 对于大量的修改，应该以完整的修改后的函数为最小展示单元或整个代码文件作为展示，不能省略其中的内容。便于复制粘贴后直接使用。如果整个文件内容过长，而仅仅修改其中一小部分，则只输出修改的完整的函数。</span><br><span class="line"></span><br><span class="line">行为和规则：</span><br><span class="line"></span><br><span class="line">1) 优先考虑安全和效率的代码实践。</span><br><span class="line"></span><br><span class="line">2) 及时指出潜在的错误或不安全的代码习惯，并提供改进建议。</span><br><span class="line"></span><br><span class="line">3) 在提供代码示例时，总是附带清晰的注释和解释，确保用户能理解其功能。</span><br><span class="line"></span><br><span class="line">4) 如果用户对某个编程概念感到困惑，应提供简短的类比或更简单的解释。</span><br><span class="line"></span><br><span class="line">5) 仅使用常见的编程语言和框架，除非用户明确要求特定的小众技术。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">保持严谨的态度，不要轻易做假设，而是保持刨根问底的精神去查找相关代码解决有疑虑不确定的地方</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="心法二：多提供参考素材，用“Meme”代替描述"><a href="#心法二：多提供参考素材，用“Meme”代替描述" class="headerlink" title="心法二：多提供参考素材，用“Meme”代替描述"></a>心法二：多提供参考素材，用“Meme”代替描述</h3><p>单纯的文字描述不一定能让LLM清楚你的目标。LLM对模糊描述理解有限，你给的越多，它越懂你的方向。</p>
+<ul>
+<li><strong>提供截图（UI布局）</strong></li>
+<li><strong>提供参考网站&#x2F;代码片段</strong></li>
+<li><strong>提供上下文（目标人群、风格）</strong></li>
+</ul>
+<p>💡 比如：“我想做一个像 Notion 那样的编辑器”，直接给Notion界面截图，它立刻能理解你的意图。</p>
+<h3 id="心法三：小步快跑，少量多次完成目标"><a href="#心法三：小步快跑，少量多次完成目标" class="headerlink" title="心法三：小步快跑，少量多次完成目标"></a>心法三：小步快跑，少量多次完成目标</h3><p>AI擅长“短程思维”，不擅长“一步登天”。</p>
+<p>不要图省事让LLM一次给你完成太多任务。当你发现这么做效果很差后，不如重新拆分，每次仅仅完成1-2项核心任务。大任务要拆小，每次让它完成一个可验证的模块。</p>
+<blockquote>
+<p>小步快跑、频繁测试，是Vibe Coding的灵魂。</p>
+</blockquote>
+<h3 id="心法四：主动管理上下文，避免AI“死犟”"><a href="#心法四：主动管理上下文，避免AI“死犟”" class="headerlink" title="心法四：主动管理上下文，避免AI“死犟”"></a>心法四：主动管理上下文，避免AI“死犟”</h3><p>这是最重要的一条经验。当你发现无论怎么和LLM沟通，它都不听你讲，而是一直停留在之前某一次的问题上时，看看你是不是在这个窗口和它沟通太久了。</p>
+<p>当AI开始“不听人话”，往往是因为上下文太长或太乱。</p>
+<p><strong>解决方案：</strong></p>
+<p>果断<strong>新打开另一个窗口</strong>，重新和它交流。当你发现它死犟死犟一直揪住某个问题不放时，新开一个窗口，你会发现它突然知道变通了。</p>
+<p><strong>我的经验法则：</strong></p>
+<ul>
+<li>每个项目阶段一个新对话。</li>
+<li>复杂问题分成独立session处理。</li>
+</ul>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://blog.051088.xyz/">MarkBai</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://blog.051088.xyz/posts/25102720/">https://blog.051088.xyz/posts/25102720/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://blog.051088.xyz" target="_blank">MarkBai的数字自留地-分享我的DIY日志</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/AI/">AI</a><a class="post-meta__tags" href="/tags/Coding/">Coding</a></div><div class="post-share"><div class="social-share" data-image="https://blog-img.051088.xyz/vibe-coding-poster.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/posts/25100720/" title="记一次经典的笔记本“充不上电”故障排查"><img class="cover" src="https://blog-img.051088.xyz/wallhaven-4551j9_1920x1080.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">记一次经典的笔记本“充不上电”故障排查</div></div><div class="info-2"><div class="info-item-1">摘要笔记本突然无法充电，插上电源毫无反应？别急着认定是主板坏了！本文记录了一次真实的排查经历，从“主板静电”误区一路走到真相，最后发现元凶是我处于“临界损坏”状态的充电器。  一、 故障现象：突如其来的“罢工”开学返校后，我的笔记本突然无法充电。具体表现为：  插入原装充电器，电源指示灯不亮。 系统提示“未通电源”。  作为一个数码爱好者，我第一反应是：要么电池挂了，要么主板充电电路损坏。甚至还怀疑是长途颠簸让老化元件松动了。考虑到假期一直插电使用，我还猜测可能是静电积累。  二、 初次故障排查在网上搜“笔记本 不充电”，几乎都会看到“释放主板静电”的方法。这是最简单的排查方式之一，于是我照做了：  拔掉电源和所有外设。 关机。 长按电源键 20–30 秒释放电荷。  几轮静电释放无果，我甚至拆开笔记本，断开电池和主板 CMOS...</div></div></div></a></nav><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/profile-photo.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">MarkBai</div><div class="author-info-description">技术博客，记录计算机、AI、单片机与结构工程领域的折腾与探索
+</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">13</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><a id="card-info-btn" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/BAIKEMARK"><i class="fab fa-github"></i><span>My Github</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/BAIKEMARK" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:blog@051088.xyz" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a><a class="social-icon" href="https://space.bilibili.com/490783536?spm_id_from=333.1007.0.0" rel="external nofollow noreferrer" target="_blank" title="bilibili"><i class="fa-brands fa-bilibili" style="color: #00a5dc;"></i></a><a class="social-icon" href="https://www.xiaohongshu.com/user/profile/607994f60000000001007812" rel="external nofollow noreferrer" target="_blank" title="小红书"><i class="fab fa-xiaohongshu" style="color: #ff3b30;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">WeClone-Linux保姆级教程上新啦！！！</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF-Vibe-Coding%EF%BC%9F"><span class="toc-number">1.</span> <span class="toc-text">什么是 Vibe Coding？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%88%91%E7%9A%84Vibe-Coding%E5%93%B2%E5%AD%A6%EF%BC%9A%E7%81%B5%E9%AD%82%E5%9C%A8%E4%BA%8E%E2%80%9CVibe%E2%80%9D%EF%BC%8C%E8%80%8C%E9%9D%9E%E2%80%9CCoding%E2%80%9D"><span class="toc-number">2.</span> <span class="toc-text">我的Vibe Coding哲学：灵魂在于“Vibe”，而非“Coding”</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%88%91%E7%9A%848%E6%AD%A5Vibe-Coding%E9%97%AD%E7%8E%AF%E5%B7%A5%E4%BD%9C%E6%B5%81"><span class="toc-number">3.</span> <span class="toc-text">我的8步Vibe Coding闭环工作流</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AD%A5%E9%AA%A4-1%EF%BC%9A%F0%9F%A7%AD-%E7%A1%AE%E7%AB%8B%E6%A0%B8%E5%BF%83Idea"><span class="toc-number">3.1.</span> <span class="toc-text">步骤 1：🧭 确立核心Idea</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AD%A5%E9%AA%A4-2%EF%BC%9A%F0%9F%A7%A0-%E8%AE%A8%E8%AE%BA%E3%80%81%E5%8F%91%E6%95%A3%E3%80%81%E4%B8%B0%E5%AF%8CIdea"><span class="toc-number">3.2.</span> <span class="toc-text">步骤 2：🧠 讨论、发散、丰富Idea</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AD%A5%E9%AA%A4-3%EF%BC%9A%F0%9F%94%8D-%E5%88%86%E6%9E%90%E5%8F%AF%E8%A1%8C%E6%80%A7"><span class="toc-number">3.3.</span> <span class="toc-text">步骤 3：🔍 分析可行性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AD%A5%E9%AA%A4-4%EF%BC%9A%E2%9A%99%EF%B8%8F-%E7%A1%AE%E5%AE%9A%E6%8A%80%E6%9C%AF%E6%A0%88"><span class="toc-number">3.4.</span> <span class="toc-text">步骤 4：⚙️ 确定技术栈</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AD%A5%E9%AA%A4-5%EF%BC%9A%F0%9F%9A%80-%E7%94%9F%E6%88%90%E5%88%9D%E7%89%88%E4%BB%A3%E7%A0%81"><span class="toc-number">3.5.</span> <span class="toc-text">步骤 5：🚀 生成初版代码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AD%A5%E9%AA%A4-6%EF%BC%9A%F0%9F%94%A7-%E8%B0%83%E8%AF%95%E4%B8%8E%E4%BC%98%E5%8C%96"><span class="toc-number">3.6.</span> <span class="toc-text">步骤 6：🔧 调试与优化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AD%A5%E9%AA%A4-7%EF%BC%9A%F0%9F%94%84-%E8%AF%84%E4%BC%B0%E4%B8%8E%E8%BF%AD%E4%BB%A3"><span class="toc-number">3.7.</span> <span class="toc-text">步骤 7：🔄 评估与迭代</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AD%A5%E9%AA%A4-8%EF%BC%9A%F0%9F%A7%B1-%E9%9A%8F%E9%A1%B9%E7%9B%AE%E6%88%90%E9%95%BF%E8%80%8C%E5%8D%87%E7%BA%A7%E6%8A%80%E6%9C%AF%E6%A0%88"><span class="toc-number">3.8.</span> <span class="toc-text">步骤 8：🧱 随项目成长而升级技术栈</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%88%91%E7%9A%84%E5%AE%9E%E6%88%98%E5%BF%83%E6%B3%95%EF%BC%9A%E5%A6%82%E4%BD%95%E8%AE%A9AI%E6%9B%B4%E6%87%82%E4%BD%A0"><span class="toc-number">4.</span> <span class="toc-text">我的实战心法：如何让AI更懂你</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BF%83%E6%B3%95%E4%B8%80%EF%BC%9A%E4%B8%93%E4%B8%9A%E7%9A%84%E4%BA%8B%EF%BC%8C%E4%BA%A4%E7%BB%99%E4%B8%93%E4%B8%9A%E7%9A%84AI%E8%A7%92%E8%89%B2"><span class="toc-number">4.1.</span> <span class="toc-text">心法一：专业的事，交给专业的AI角色</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BF%83%E6%B3%95%E4%BA%8C%EF%BC%9A%E5%A4%9A%E6%8F%90%E4%BE%9B%E5%8F%82%E8%80%83%E7%B4%A0%E6%9D%90%EF%BC%8C%E7%94%A8%E2%80%9CMeme%E2%80%9D%E4%BB%A3%E6%9B%BF%E6%8F%8F%E8%BF%B0"><span class="toc-number">4.2.</span> <span class="toc-text">心法二：多提供参考素材，用“Meme”代替描述</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BF%83%E6%B3%95%E4%B8%89%EF%BC%9A%E5%B0%8F%E6%AD%A5%E5%BF%AB%E8%B7%91%EF%BC%8C%E5%B0%91%E9%87%8F%E5%A4%9A%E6%AC%A1%E5%AE%8C%E6%88%90%E7%9B%AE%E6%A0%87"><span class="toc-number">4.3.</span> <span class="toc-text">心法三：小步快跑，少量多次完成目标</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BF%83%E6%B3%95%E5%9B%9B%EF%BC%9A%E4%B8%BB%E5%8A%A8%E7%AE%A1%E7%90%86%E4%B8%8A%E4%B8%8B%E6%96%87%EF%BC%8C%E9%81%BF%E5%85%8DAI%E2%80%9C%E6%AD%BB%E7%8A%9F%E2%80%9D"><span class="toc-number">4.4.</span> <span class="toc-text">心法四：主动管理上下文，避免AI“死犟”</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/25102720/" title="Vibe Coding实战：从灵感到代码，我的实践心法"><img src="https://blog-img.051088.xyz/vibe-coding-poster.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Vibe Coding实战：从灵感到代码，我的实践心法"/></a><div class="content"><a class="title" href="/posts/25102720/" title="Vibe Coding实战：从灵感到代码，我的实践心法">Vibe Coding实战：从灵感到代码，我的实践心法</a><time datetime="2025-10-27T11:59:43.825Z" title="发表于 2025-10-27 19:59:43">2025-10-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/25100720/" title="记一次经典的笔记本“充不上电”故障排查"><img src="https://blog-img.051088.xyz/wallhaven-4551j9_1920x1080.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="记一次经典的笔记本“充不上电”故障排查"/></a><div class="content"><a class="title" href="/posts/25100720/" title="记一次经典的笔记本“充不上电”故障排查">记一次经典的笔记本“充不上电”故障排查</a><time datetime="2025-10-07T12:47:05.000Z" title="发表于 2025-10-07 20:47:05">2025-10-07</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/25083022/" title="暑假的一些折腾记录与项目分享"><img src="https://blog-img.051088.xyz/AI_high_q_image_sea_girl.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="暑假的一些折腾记录与项目分享"/></a><div class="content"><a class="title" href="/posts/25083022/" title="暑假的一些折腾记录与项目分享">暑假的一些折腾记录与项目分享</a><time datetime="2025-08-30T14:08:41.000Z" title="发表于 2025-08-30 22:08:41">2025-08-30</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/weclone-linux-tutorial/" title="WeClone：基于 Linux 的部署指南【保姆级教程】"><img src="https://blog-img.051088.xyz/weclone.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="WeClone：基于 Linux 的部署指南【保姆级教程】"/></a><div class="content"><a class="title" href="/posts/weclone-linux-tutorial/" title="WeClone：基于 Linux 的部署指南【保姆级教程】">WeClone：基于 Linux 的部署指南【保姆级教程】</a><time datetime="2025-05-22T09:00:00.000Z" title="发表于 2025-05-22 17:00:00">2025-05-22</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/05/14/WeClone-%E7%94%A8%E5%BE%AE%E4%BF%A1%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95%E6%89%93%E9%80%A0%E8%87%AA%E5%B7%B1%E7%9A%84AI%E6%95%B0%E5%AD%97%E5%88%86%E8%BA%AB/" title="WeClone — 用微信聊天记录打造自己的 AI 数字分身"><img src="https://blog-img.051088.xyz/weclone.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="WeClone — 用微信聊天记录打造自己的 AI 数字分身"/></a><div class="content"><a class="title" href="/2025/05/14/WeClone-%E7%94%A8%E5%BE%AE%E4%BF%A1%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95%E6%89%93%E9%80%A0%E8%87%AA%E5%B7%B1%E7%9A%84AI%E6%95%B0%E5%AD%97%E5%88%86%E8%BA%AB/" title="WeClone — 用微信聊天记录打造自己的 AI 数字分身">WeClone — 用微信聊天记录打造自己的 AI 数字分身</a><time datetime="2025-05-14T14:00:00.000Z" title="发表于 2025-05-14 22:00:00">2025-05-14</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(https://blog-img.051088.xyz/wallhaven-8ovykj_1920x1080.png);"><div id="footer-wrap"><div class="copyright">&copy;2025 By MarkBai</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.3.5</a></div><div class="footer_custom_text">Hi, welcome to <a href="https://blog.051088.xyz/">MarkBai's Blog</a>!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><div class="js-pjax"><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'https://blog-twikoo.051088.xyz',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(res => {
+      countELement.textContent = res[0].count
+    }).catch(err => {
+      console.error(err)
+    })
+  }
+
+  const init = (el = document, path = location.pathname) => {
+    twikoo.init({
+      el: el.querySelector('#twikoo-wrap'),
+      envId: 'https://blog-twikoo.051088.xyz',
+      region: '',
+      onCommentLoaded: () => {
+        btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      },
+      ...option,
+      path: isShuoshuo ? path : (option && option.path) || path
+    })
+
+    
+
+    isShuoshuo && (window.shuoshuoComment.destroyTwikoo = () => {
+      if (el.children.length) {
+        el.innerHTML = ''
+        el.classList.add('no-comment')
+      }
+    })
+  }
+
+  const loadTwikoo = (el, path) => {
+    if (typeof twikoo === 'object') setTimeout(() => init(el, path), 0)
+    else btf.getScript('https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js').then(() => init(el, path))
+  }
+
+  if (isShuoshuo) {
+    'Twikoo' === 'Twikoo'
+      ? window.shuoshuoComment = { loadComment: loadTwikoo }
+      : window.loadOtherComment = loadTwikoo
+    return
+  }
+
+  if ('Twikoo' === 'Twikoo' || !false) {
+    if (false) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo()
+  } else {
+    window.loadOtherComment = loadTwikoo
+  }
+})()</script></div><script id="canvas_nest" defer="defer" color="100,200,255" opacity="0.7" zIndex="-1" count="66" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-nest.min.js"></script><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-show-text.min.js" data-mobile="false" data-text="GOOD,LUCK,FOR,YOU" data-fontsize="15px" data-random="false" async="async"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
