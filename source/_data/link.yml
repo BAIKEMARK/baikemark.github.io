@@ -1,0 +1,52 @@
+- class_name: 友情链接
+  class_desc: 那些人，那些事
+  flink_style: volantis
+  link_list:
+    - name: Ganzhe
+      link: https://www.ganzhe.site/
+      avatar: https://weavatar.com/avatar/f5c71d2a1d166a9c579af5ac15ccacf08b81cead8b3b9105f92ed4129467c775?d=initials&name=Ganzhe
+      descr: 顺其自然，持之以恒
+    - name: 星雪
+      link: https://snowtafir.top
+      avatar: https://snowtafir.top/img/avatar.webp
+      descr: 银光渐深星无灭，古杉月空探花雪。浮尘荡风埃不落，杨柳春辰与露飞。
+    - name: Jetlab
+      link: https://www.jet-lab.site/
+      avatar: https://avatars.githubusercontent.com/u/83146544?v=4
+      descr: 对多门技术有所耳闻
+    - name: 吃白饭的休伯利安号
+      link: https://www.eatrice.cn
+      avatar: https://www.eatrice.cn/img/avatar.jpg
+      descr: 用电脑搬砖的土木工程师
+    - name: Luxynth
+      avatar: https://www.luxynth.cn/assets/images/avatar.jpg
+      link: https://www.luxynth.cn
+      descr: 我心匪石不可转，我心匪席不可卷
+    - name: jeanhua的博客
+      link: https://www.blog.jeanhua.cn
+      descr: jeanhua的个人博客
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=2207739460&s=0
+      siteshot: https://fs.jeanhua.cn/d/ty/imageBed/background_minify.jpg?sign=pclPyxYxLLAcLp7RB17SAU6uR3X1dMcc6gg9KyRJVUo=:0
+    - name: Fantastic Joe
+      link: https://blog.fantasticjoe.com
+      avatar: https://s3.fantasticjoe.com/img/logo-joe.webp
+      desc: Where technology meets life.
+      
+
+- class_name: 网站
+  class_desc: 值得推荐的网站
+  flink_style: butterfly
+  random: false
+  link_list:
+    - name: Youtube
+      link: https://www.youtube.com/
+      avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
+      descr: 视频网站
+    - name: GitHub
+      link: https://github.com/
+      avatar: https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png
+      descr: 全球最大的代码托管平台
+    - name: Bilibili
+      link: https://www.bilibili.com/
+      avatar: https://blog-img.051088.xyz/bilibili.png
+      descr: 国内知名的视频弹幕网站
