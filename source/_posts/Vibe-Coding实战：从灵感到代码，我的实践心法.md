@@ -13,6 +13,8 @@ description: Vibe Coding实战：从灵感到代码，我的实践心法
 cover: 'https://blog-img.051088.xyz/vibe-coding-poster.png'
 top_img: 'https://blog-img.051088.xyz/wallhaven-8ovykj_1920x1080.png'
 abbrlink: 46842
+date: 2025-10-27 19:59:43
+updated: 2025-12-07 22:04:19
 ---
 
 ## 什么是 Vibe Coding？
