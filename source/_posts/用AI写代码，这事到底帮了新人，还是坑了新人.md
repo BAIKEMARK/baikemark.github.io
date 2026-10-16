@@ -12,6 +12,8 @@ categories:
 keywords: 'AI, 编程, 新人成长, 思考'
 description: 用 AI 写代码让新人更容易做出项目，可企业愿意把工作交给新人的门槛，未必跟着降低。当任务可以被批量完成，我们又该拿什么证明自己的价值？
 abbrlink: 61327
+cover: /img/ai-newcomer-cover.jpg
+top_img: /img/ai-newcomer-cover.jpg
 date: 2026-10-16 17:20:40
 ---
 最近我在不少 AI 社群里潜水，常看到从业者吐槽。被吐槽的对象是一些用 AI 写代码、做项目的大学生和实习生。
