@@ -1052,6 +1052,7 @@ inject:
       - <link rel="stylesheet" href="/css/flink-avatar.css?v=20250524">
   bottom:
     # - <script src="xxxx"></script>
+    - <script defer src="/js/busuanzi-legacy-offset.js"></script>
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work
