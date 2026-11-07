@@ -14,7 +14,7 @@ email: 'blog@051088.xyz'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://blog.051088.xyz
+url: https://blog.markbai.com
 root: /
 #permalink: :year/:month/:day/:title/
 permalink: :permalink  ## 此处可以自己设置,也可以直接使用 :/abbrlink

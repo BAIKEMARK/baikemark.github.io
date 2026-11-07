@@ -28,7 +28,7 @@ desc: the desc of your blog
 
 ```yaml
 name: MarkBai的数字自留地
-link: https://blog.051088.xyz/
+link: https://blog.markbai.com/
 avatar: https://blog-img.051088.xyz/avatar_big.png
 desc: 一个IT&DIY爱好者的折腾日志
 ```

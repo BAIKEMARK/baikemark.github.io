@@ -118,7 +118,7 @@ WeClone 是一个一站式解决方案，它通过分析你的微信聊天记录
 
 如果你希望启用 QLoRA 微调方式，请查阅后续章节“[修改配置文件 (settings.jsonc)](#启用-QLoRA-（可选配置）)”了解如何切换微调策略。
 
-如果你的本地设备不足以支撑你实现模型训练，可以移步至我的另一篇博客：[WeClone：基于 Linux 的部署指南【保姆级教程】](https://blog.051088.xyz/posts/weclone-linux-tutorial)
+如果你的本地设备不足以支撑你实现模型训练，可以移步至我的另一篇博客：[WeClone：基于 Linux 的部署指南【保姆级教程】](https://blog.markbai.com/posts/weclone-linux-tutorial)
 
 ## 环境配置 
 

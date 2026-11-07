@@ -216,7 +216,7 @@ toc:
 post_copyright:
   enable: true
   decode: true
-  author_href: https://blog.051088.xyz/
+  author_href: https://blog.markbai.com/
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -273,7 +273,7 @@ footer:
   owner:
     enable: true
     since: 2025
-  custom_text: Hi, welcome to <a href="https://blog.051088.xyz/">MarkBai's Blog</a>!
+  custom_text: Hi, welcome to <a href="https://blog.markbai.com/">MarkBai's Blog</a>!
   # Copyright of theme and framework
   copyright: true
 

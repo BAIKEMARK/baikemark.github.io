@@ -1,8 +1,8 @@
 User-agent: Baiduspider
 
-Sitemap: https://blog.051088.xyz/baidusitemap.xml
+Sitemap: https://blog.markbai.com/baidusitemap.xml
 
 User-agent: *
 Disallow:
 
-Sitemap: https://blog.051088.xyz/sitemap.xml
+Sitemap: https://blog.markbai.com/sitemap.xml
